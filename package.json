@@ -7,7 +7,21 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@element-plus/icons-vue": "^2.0.10",
+    "@wangeditor/editor": "^5.1.23",
+    "@wangeditor/editor-for-vue": "^5.1.12",
+    "axios": "^1.2.1",
     "core-js": "^3.8.3",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.7",
+    "echarts": "^5.4.1",
+    "element-plus": "^2.2.27",
+    "express": "^4.18.2",
+    "mockjs": "^1.1.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "normalize.css": "^8.0.1",
+    "pinia": "^2.0.28",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
     "vuex": "^4.0.0"
@@ -18,7 +32,9 @@
     "@vue/cli-plugin-vuex": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
     "less": "^4.0.0",
-    "less-loader": "^8.0.0"
+    "less-loader": "^8.0.0",
+    "unplugin-auto-import": "^0.12.1",
+    "unplugin-vue-components": "^0.22.12"
   },
   "browserslist": [
     "> 1%",
